@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px;
+    margin: auto;
+    margin-top: 10px;
+
+}
+
+a {
+    padding: 8px;
+    text-decoration: none;
+}
+
+.box1 {
+    display: flex;
+    width: 1200px;
+    margin: auto;
+    margin-top: 150px;
+    justify-content: space-between;
+}
+
+.description {
+    width: 600px;
+}
