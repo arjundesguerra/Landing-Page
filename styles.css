@@ -47,9 +47,15 @@ h2 {
 .box2 {
     display: flex;
     justify-content: space-between;
-    width: 1200px;
+    width: 1100px;
     margin: auto;
     margin-bottom: 75px;
+}
+
+.box2 p {
+    width: 200px;
+    text-align: center;
+    margin: 5px;
 }
 
 .box3 {
@@ -68,4 +74,36 @@ h2 {
 
 .name {
     font-size: 32px;
+}
+
+.newsletter {
+    width: 800px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.newsletter button {
+    width: 80px;
+    margin-right: 50px;
+}
+
+.newsletter-text {
+    margin-left: 50px;
+    width: 600px;
+}
+
+.newsletter-text p.title {
+    font-size: 32px;
+}
+
+.newsletter-text p {
+    font-size: 18px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 100px;
 }
