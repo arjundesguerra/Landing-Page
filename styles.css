@@ -1,28 +1,54 @@
+* {
+    font-family:serif
+}
+
+body {
+    margin: 0;
+}
+
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 1200px;
     margin: auto;
-    margin-top: 10px;
-
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
+
 
 a {
     padding: 8px;
     text-decoration: none;
+    color: black;
+}
+
+.box1parent {
+    background-image: url(https://media.giphy.com/media/pdlPCUR4cBdJyXLL6h/giphy-downsized-large.gif);
+    background-size: cover;
+    padding-top: 125px;
+    padding-bottom: 125px;
 }
 
 .box1 {
     display: flex;
     width: 1200px;
     margin: auto;
-    margin-top: 150px;
     justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .35);
+    color: rgb(173, 171, 171);
+    border-radius: 40px;
+}
+
+.box1 img {
+    margin: 50px;
 }
 
 .description {
     width: 600px;
+    padding: 30px;
 }
 
 .description h1 {
@@ -36,10 +62,14 @@ a {
 
 .description button {
     font-size: 24px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: grey;
+    color: white;
+    border-radius: 10px;
 }
 
 h2 {
-    margin-top: 150px;
+    margin-top: 60px;
     margin-bottom: 50px;
     text-align: center;
 }
@@ -58,13 +88,24 @@ h2 {
     margin: 5px;
 }
 
+.box3parent {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(194, 193, 193);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 .box3 {
     display: flex;
     justify-content: center;
     width: 800px;
-    margin: auto;
     flex-direction: column;
     align-items: flex-end;
+    text-align: center;
+    background-color: rgb(194, 193, 193);
+    color: white;
+
 }
 
 .quote {
